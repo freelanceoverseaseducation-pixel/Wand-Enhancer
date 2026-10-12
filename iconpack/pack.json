@@ -1,0 +1,402 @@
+{
+  "pack_name": "Aura Icons",
+  "package": "com.aura.iconpack",
+  "version_code": 1,
+  "version_name": "1.0",
+  "min_sdk": 21,
+  "target_sdk": 34,
+  "author": "Aura",
+  "style": {
+    "canvas": 512,
+    "output": 192,
+    "glyph_scale": 0.58,
+    "squircle_power": 4.0
+  },
+  "icons": [
+    {
+      "drawable": "phone",
+      "kind": "system",
+      "bg": "#10B981",
+      "components": [
+        "ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}",
+        "ComponentInfo{com.android.dialer/com.android.dialer.app.DialtactsActivity}",
+        "ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialer}",
+        "ComponentInfo{com.android.incallui/com.android.incallui.DialerLauncher}",
+        "ComponentInfo{com.hihonor.contacts/com.hihonor.contacts.activities.PeopleActivity}"
+      ]
+    },
+    {
+      "drawable": "messages",
+      "kind": "system",
+      "bg": "#3B82F6",
+      "components": [
+        "ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}",
+        "ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}",
+        "ComponentInfo{com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity}",
+        "ComponentInfo{com.hihonor.messaging/com.hihonor.messaging.ui.ConversationListActivity}"
+      ]
+    },
+    {
+      "drawable": "contacts",
+      "kind": "system",
+      "bg": "#F59E0B",
+      "components": [
+        "ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}",
+        "ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}",
+        "ComponentInfo{com.hihonor.contacts/com.android.contacts.activities.PeopleActivity}"
+      ]
+    },
+    {
+      "drawable": "camera",
+      "kind": "system",
+      "bg": "#475569",
+      "components": [
+        "ComponentInfo{com.hihonor.camera/com.hihonor.camera.Camera}",
+        "ComponentInfo{com.android.camera/com.android.camera.CameraActivity}",
+        "ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}",
+        "ComponentInfo{org.codeaurora.snapcam/com.android.camera.CameraLauncher}",
+        "ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}"
+      ]
+    },
+    {
+      "drawable": "gallery",
+      "kind": "system",
+      "bg": "#EC4899",
+      "components": [
+        "ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}",
+        "ComponentInfo{com.hihonor.photos/com.hihonor.photos.gallery.GalleryActivity}",
+        "ComponentInfo{com.miui.gallery/com.miui.gallery.activity.HomePageActivity}",
+        "ComponentInfo{com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity}"
+      ]
+    },
+    {
+      "drawable": "settings",
+      "kind": "system",
+      "bg": "#64748B",
+      "components": [
+        "ComponentInfo{com.android.settings/com.android.settings.Settings}",
+        "ComponentInfo{com.android.settings/com.android.settings.HWSettings}"
+      ]
+    },
+    {
+      "drawable": "clock",
+      "kind": "system",
+      "bg": "#0EA5E9",
+      "components": [
+        "ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}",
+        "ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}",
+        "ComponentInfo{com.hihonor.deskclock/com.hihonor.deskclock.AlarmClock}"
+      ]
+    },
+    {
+      "drawable": "calculator",
+      "kind": "system",
+      "bg": "#F97316",
+      "components": [
+        "ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}",
+        "ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}",
+        "ComponentInfo{com.hihonor.calculator/com.hihonor.calculator.Calculator}"
+      ]
+    },
+    {
+      "drawable": "calendar",
+      "kind": "system",
+      "bg": "#EF4444",
+      "components": [
+        "ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}",
+        "ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}",
+        "ComponentInfo{com.android.calendar/com.android.calendar.homepage.AllInOneActivity}"
+      ]
+    },
+    {
+      "drawable": "files",
+      "kind": "system",
+      "bg": "#8B5CF6",
+      "components": [
+        "ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}",
+        "ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}",
+        "ComponentInfo{com.hihonor.filemanager/com.hihonor.filemanager.ui.main.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "googlechrome",
+      "slug": "googlechrome",
+      "components": [
+        "ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}",
+        "ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}",
+        "ComponentInfo{com.chrome.dev/com.google.android.apps.chrome.Main}"
+      ]
+    },
+    {
+      "drawable": "gmail",
+      "slug": "gmail",
+      "components": [
+        "ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}"
+      ]
+    },
+    {
+      "drawable": "youtube",
+      "slug": "youtube",
+      "components": [
+        "ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}",
+        "ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}"
+      ]
+    },
+    {
+      "drawable": "googleapp",
+      "slug": "google",
+      "components": [
+        "ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}",
+        "ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.lite.surface.home.activity.HomeActivity}"
+      ]
+    },
+    {
+      "drawable": "maps",
+      "slug": "googlemaps",
+      "components": [
+        "ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}"
+      ]
+    },
+    {
+      "drawable": "googlephotos",
+      "slug": "googlephotos",
+      "components": [
+        "ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}"
+      ]
+    },
+    {
+      "drawable": "playstore",
+      "slug": "googleplay",
+      "components": [
+        "ComponentInfo{com.android.vending/com.google.android.finsky.activities.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "googledrive",
+      "slug": "googledrive",
+      "components": [
+        "ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}"
+      ]
+    },
+    {
+      "drawable": "whatsapp",
+      "slug": "whatsapp",
+      "components": [
+        "ComponentInfo{com.whatsapp/com.whatsapp.Main}",
+        "ComponentInfo{com.whatsapp.w4b/com.whatsapp.Main}"
+      ]
+    },
+    {
+      "drawable": "instagram",
+      "slug": "instagram",
+      "bg": "gradient_instagram",
+      "components": [
+        "ComponentInfo{com.instagram.android/com.instagram.mainactivity.LauncherActivity}",
+        "ComponentInfo{com.instagram.android/com.instagram.mainactivity.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "facebook",
+      "slug": "facebook",
+      "components": [
+        "ComponentInfo{com.facebook.katana/LoginActivity}",
+        "ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}"
+      ]
+    },
+    {
+      "drawable": "messenger",
+      "slug": "messenger",
+      "components": [
+        "ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}",
+        "ComponentInfo{com.facebook.mlite/com.facebook.mlite.coreui.view.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "tiktok",
+      "slug": "tiktok",
+      "bg": "#000000",
+      "components": [
+        "ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}",
+        "ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}"
+      ]
+    },
+    {
+      "drawable": "x",
+      "slug": "x",
+      "bg": "#000000",
+      "components": [
+        "ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}",
+        "ComponentInfo{com.twitter.android/com.twitter.android.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "snapchat",
+      "slug": "snapchat",
+      "bg": "#FFFC00",
+      "glyph_color": "#000000",
+      "components": [
+        "ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}"
+      ]
+    },
+    {
+      "drawable": "telegram",
+      "slug": "telegram",
+      "components": [
+        "ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}",
+        "ComponentInfo{org.telegram.messenger.web/org.telegram.ui.LaunchActivity}",
+        "ComponentInfo{org.thunderdog.challegram/org.thunderdog.challegram.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "discord",
+      "slug": "discord",
+      "components": [
+        "ComponentInfo{com.discord/com.discord.main.MainActivity}",
+        "ComponentInfo{com.aliucord/com.discord.main.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "spotify",
+      "slug": "spotify",
+      "components": [
+        "ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "netflix",
+      "slug": "netflix",
+      "components": [
+        "ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}",
+        "ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "amazon",
+      "slug": "amazon",
+      "source": "v13",
+      "components": [
+        "ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}",
+        "ComponentInfo{in.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}"
+      ],
+      "glyph_scale": 0.7
+    },
+    {
+      "drawable": "primevideo",
+      "slug": "primevideo",
+      "source": "v13",
+      "components": [
+        "ComponentInfo{com.amazon.avod.thirdpartyclient/com.amazon.avod.thirdpartyclient.LaunchActivity}"
+      ],
+      "glyph_scale": 0.66
+    },
+    {
+      "drawable": "reddit",
+      "slug": "reddit",
+      "components": [
+        "ComponentInfo{com.reddit.frontpage/com.reddit.frontpage.StartActivity}",
+        "ComponentInfo{com.reddit.frontpage/launcher.wallstreet}"
+      ]
+    },
+    {
+      "drawable": "pinterest",
+      "slug": "pinterest",
+      "components": [
+        "ComponentInfo{com.pinterest/com.pinterest.activity.PinterestActivity}"
+      ]
+    },
+    {
+      "drawable": "linkedin",
+      "slug": "linkedin",
+      "source": "v13",
+      "components": [
+        "ComponentInfo{com.linkedin.android/com.linkedin.android.authenticator.LaunchActivity}"
+      ],
+      "glyph_scale": 0.66
+    },
+    {
+      "drawable": "paypal",
+      "slug": "paypal",
+      "components": [
+        "ComponentInfo{com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.startup.activities.StartupActivity}"
+      ],
+      "glyph_scale": 0.68
+    },
+    {
+      "drawable": "uber",
+      "slug": "uber",
+      "bg": "#000000",
+      "components": [
+        "ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}"
+      ],
+      "glyph_scale": 0.66
+    },
+    {
+      "drawable": "airbnb",
+      "slug": "airbnb",
+      "components": [
+        "ComponentInfo{com.airbnb.android/com.airbnb.android.feat.homes_v2.MainActivity}",
+        "ComponentInfo{com.airbnb.android/com.airbnb.android.activities.MainActivity}"
+      ]
+    },
+    {
+      "drawable": "booking",
+      "slug": "bookingdotcom",
+      "components": [
+        "ComponentInfo{com.booking/com.booking.startup.HomeActivity}",
+        "ComponentInfo{com.booking/com.booking.startup.ui.StartupActivity}"
+      ],
+      "glyph_scale": 0.72
+    },
+    {
+      "drawable": "flipkart",
+      "slug": "flipkart",
+      "source": "v13",
+      "components": [
+        "ComponentInfo{com.flipkart.android/com.flipkart.android.SplashActivity}"
+      ]
+    },
+    {
+      "drawable": "phonepe",
+      "slug": "phonepe",
+      "components": [
+        "ComponentInfo{com.phonepe.app/com.phonepe.app.v4.nativeapps.splash.Navigator_MainActivity}",
+        "ComponentInfo{com.phonepe.app/com.phonepe.app.v5.SplashActivity}"
+      ]
+    },
+    {
+      "drawable": "gpay",
+      "slug": "googlepay",
+      "components": [
+        "ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.android.apps.nbu.paisa.user.main.home.MainActivity}",
+        "ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.android.apps.nbu.paisa.user.home.activity.MainActivity}"
+      ],
+      "glyph_scale": 0.72
+    },
+    {
+      "drawable": "paytm",
+      "slug": "paytm",
+      "components": [
+        "ComponentInfo{net.one97.paytm/net.one97.paytm.app.features.splash.SplashActivity}",
+        "ComponentInfo{net.one97.paytm/net.one97.paytm.activity.TSplashScreenActivity}"
+      ],
+      "glyph_scale": 0.76
+    },
+    {
+      "drawable": "swiggy",
+      "slug": "swiggy",
+      "components": [
+        "ComponentInfo{in.swiggy.android/in.swiggy.android.activities.HomeActivity}",
+        "ComponentInfo{in.swiggy.android/in.swiggy.android.activities.SplashActivity}"
+      ]
+    },
+    {
+      "drawable": "zomato",
+      "slug": "zomato",
+      "components": [
+        "ComponentInfo{com.application.zomato/com.application.zomato.activities.Splash}",
+        "ComponentInfo{com.application.zomato/com.application.zomato.ui.activities.SplashActivity}"
+      ],
+      "glyph_scale": 0.78
+    }
+  ]
+}

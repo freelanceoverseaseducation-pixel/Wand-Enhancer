@@ -149,3 +149,8 @@ appsettings.json
 web-panel/bridge/wand-remote-bridge.cjs
 .vscode
 docs
+# Aura Icons build artifacts
+iconpack/output/
+iconpack/generated/
+__pycache__/
+*.pyc

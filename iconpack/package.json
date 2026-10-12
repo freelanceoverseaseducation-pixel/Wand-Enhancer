@@ -1,0 +1,9 @@
+{
+  "name": "aura-icons-build",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "apk_sign_ts": "^1.0.1"
+  }
+}
